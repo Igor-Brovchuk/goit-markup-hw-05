@@ -500,7 +500,6 @@ img {
 
 .modal-overlay {
   background: rgba(46, 47, 66, 0.4);
-
   position: fixed;
   top: 0;
   left: 0;
@@ -522,7 +521,9 @@ img {
 .modal {
   position: absolute;
   background-color: #fff;
-  padding: 24px;
+  width: 408px;
+  height: 584px;
+  padding: 72px 24px 24px 24px;
 }
 
 .modal-close-btn {
@@ -550,4 +551,29 @@ img {
   margin-bottom: 16px;
   text-align: center;
   display: block;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.input-icon {
+  position: absolute;
 }
