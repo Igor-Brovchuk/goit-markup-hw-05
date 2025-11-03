@@ -519,13 +519,24 @@
           ></textarea>
           <div class="checkbox-wrapper">
             <label class="label-checkbox">
-              <input type="checkbox" name="privacy-policy" />
-              <span class="span-checkbox-text">
-                I accept the terms and conditions of the
+              <input
+                type="checkbox"
+                name="privacy-policy"
+                class="checkbox-input"
+                required
+              />
+              <span class="custom-checkbox">
+                <svg class="checkbox-icon" width="16" height="16">
+                  <use href="./images/icons.svg#icon-modal-checkbox"></use>
+                </svg>
               </span>
-              <a href="">Privacy Policy</a>
+              <span class="checkbox-text">
+                I accept the terms and conditions of the
+                <a href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
+          <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
     </div>
